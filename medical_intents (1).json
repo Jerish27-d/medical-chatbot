@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+      "responses": [
+        "Hello! I am a medical assistance chatbot.",
+        "Hi! How can I help you today?"
+      ]
+    },
+    {
+      "tag": "fever",
+      "patterns": [
+        "I have fever",
+        "High temperature",
+        "Feeling hot and cold",
+        "Body temperature is high"
+      ],
+      "responses": [
+        "Fever may indicate an infection. Please stay hydrated and rest.",
+        "If fever persists for more than 2 days, consult a doctor."
+      ]
+    },
+    {
+      "tag": "headache",
+      "patterns": [
+        "I have headache",
+        "Head pain",
+        "Pain in my head"
+      ],
+      "responses": [
+        "Headaches can occur due to stress or dehydration.",
+        "Try resting and drinking water. Consult a doctor if it continues."
+      ]
+    },
+    {
+      "tag": "cold",
+      "patterns": [
+        "I have cold",
+        "Sneezing",
+        "Runny nose",
+        "Blocked nose"
+      ],
+      "responses": [
+        "Common cold usually improves with rest and fluids.",
+        "If symptoms worsen, consult a doctor."
+      ]
+    },
+    {
+      "tag": "covid",
+      "patterns": [
+        "Covid symptoms",
+        "Loss of smell",
+        "Breathing problem",
+        "Corona symptoms"
+      ],
+      "responses": [
+        "Please consult a medical professional immediately.",
+        "Consider getting tested and isolate if necessary."
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "Chest pain",
+        "Severe breathing problem",
+        "Unconscious",
+        "Heart pain"
+      ],
+      "responses": [
+        "⚠️ This may be an emergency. Please seek immediate medical help.",
+        "Call emergency services or go to the nearest hospital."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "Exit"],
+      "responses": [
+        "Take care! Stay healthy.",
+        "Goodbye! Wishing you good health."
+      ]
+    }
+  ]
+}
